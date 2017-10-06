@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:fadingEdge="horizontal"
+        android:layout_marginBottom="20dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:singleLine="true"
+        android:fadingEdge="horizontal"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="305dp"
+            android:layout_height="184dp"
+            android:background="#fffcfc"
+            android:src="@drawable/image"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:id="@+id/okbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#03ba31"
+            android:textSize="25sp"
+            android:text="Connexion"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:id="@+id/registered"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#cbcbcb"
+            android:textSize="25sp"
+            android:text="S'enregistrer"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fbfbfe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="NOM"
+        />
+
+    <EditText
+        android:id="@+id/nomClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre nom ici"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="PRENOM"
+        />
+
+    <EditText
+        android:id="@+id/prenomClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre prénom ici"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="EMAIL"
+        />
+
+    <EditText
+        android:id="@+id/emailClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre email ici"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="TELEPHONE"
+        />
+
+    <EditText
+        android:id="@+id/telephoneClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre numéro de téléphone ici"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="PSEUDO"
+        />
+
+    <EditText
+        android:id="@+id/pseudoClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre pseudo ici"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="MOT DE PASSE"
+        />
+
+    <EditText
+        android:id="@+id/mpClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre mot de passe ici"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="CONFIRMATION DE MOT DE PASSE"
+        />
+
+    <EditText
+        android:id="@+id/cmpClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez de nouveau votre mot de passe ici"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btenregistrer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:background="#03ba31"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="Enregistrer" />
+
+</LinearLayout>

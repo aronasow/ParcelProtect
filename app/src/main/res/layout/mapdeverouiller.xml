@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="Deverrouiller votre Colis"
+        tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dip"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/deverouiller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_marginTop="25dip"
+            android:background="#03ba31"
+            android:layout_marginRight="25dip"
+            android:layout_weight="0.03"
+            android:text="deverouiller"
+            tools:ignore="HardcodedText,InefficientWeight" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:text="Suivi en temps réel du colis"
+        tools:ignore="HardcodedText" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapDeverrouiller"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+</LinearLayout>
